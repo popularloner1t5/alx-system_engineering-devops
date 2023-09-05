@@ -1,2 +1,2 @@
 #!/bin/bash
-(echo "Local Variables:" declare -F -p) | cat - <(echo "Environment Variables:" env) -
+set
